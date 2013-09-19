@@ -1,7 +1,7 @@
 MultiThread
 ===========
 
-php基于pcntl扩展实现的多进程框架。
+php基于pcntl和posix扩展实现的多进程框架。
 
 ##基本要求
 PHP 5.2 + 扩展pcntl, posix
