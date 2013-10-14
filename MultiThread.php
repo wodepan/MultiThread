@@ -1,3 +1,4 @@
+<?php
 /**
  * @description: php多进程
  * @author: 俊杰Jerry<bupt1987@gmail.com>
