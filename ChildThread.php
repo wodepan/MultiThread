@@ -1,3 +1,4 @@
+<?php
 /**
  * @description: 子进程抽象类
  * @author: 俊杰Jerry<bupt1987@gmail.com>
