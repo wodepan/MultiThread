@@ -161,6 +161,7 @@ class MultiThread{
     private function spawn(ChildThread $obj, $param = null){
         $pid = pcntl_fork();
         if($pid === 0){
+            define("MutiThread_IsChild", 1);
             $this->is_child = true;
             $cid = getmypid();
             $rs = $obj->_fork($param);
